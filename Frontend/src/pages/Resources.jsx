@@ -3,62 +3,146 @@ import { Video, Headphones, BookOpen, ExternalLink, Play, Filter } from 'lucide-
 
 const categories = ['All', 'Anxiety', 'Depression', 'PTSD', 'Mental Health', 'OCD'];
 
+// const videos = [
+//     {
+//         id: 'xNY0AAUtQ3g',
+//         title: 'How to Cope With Anxiety',
+//         desc: 'A TED-Ed talk about understanding and managing anxiety.',
+//         category: 'Anxiety',
+//     },
+//     {
+//         id: 'XiCrniLQGYc',
+//         title: 'What Is Depression?',
+//         desc: 'Understanding what depression really is and how it affects the brain.',
+//         category: 'Depression',
+//     },
+//     {
+//         id: 'ZQht2yOX9Js',
+//         title: 'How to Practice Mindfulness',
+//         desc: 'A guided introduction to mindfulness meditation for stress relief.',
+//         category: 'Mental Health',
+//     },
+//     {
+//         id: 'b_n9qegR7C4',
+//         title: 'Understanding PTSD and Trauma',
+//         desc: 'Learn how trauma affects the body and mind.',
+//         category: 'PTSD',
+//     },
+//     {
+//         id: 'I9lmOVbSPnE',
+//         title: 'Living with OCD — My Story',
+//         desc: 'Personal experiences and insights about OCD recovery.',
+//         category: 'OCD',
+//     },
+//     {
+//         id: 'MB5IX-np5fE',
+//         title: 'How Stress Affects Your Body',
+//         desc: 'TED-Ed explains the long-term effects of stress on your health.',
+//         category: 'Anxiety',
+//     },
+//     {
+//         id: 'LnJwH_PZXnM',
+//         title: 'Depression — Let\'s Talk',
+//         desc: 'WHO campaign to raise awareness about depression globally.',
+//         category: 'Depression',
+//     },
+//     {
+//         id: 'NQcYZKQrzGo',
+//         title: 'How Your Brain Works Under Stress',
+//         desc: 'Understanding the neuroscience of stress and anxiety.',
+//         category: 'Mental Health',
+//     },
+//     {
+//         id: 'aqu4ezLQEUA',
+//         title: 'PTSD: What You Need to Know',
+//         desc: 'A quick overview of PTSD symptoms and treatment options.',
+//         category: 'PTSD',
+//     },
+// ];
+
+
 const videos = [
     {
-        id: 'xNY0AAUtQ3g',
-        title: 'How to Cope With Anxiety',
-        desc: 'A TED-Ed talk about understanding and managing anxiety.',
-        category: 'Anxiety',
+        id: "AOHT-YiOeQA",
+        title: "Mental Health Awareness",
+        desc: "Understanding mental health importance.",
+        category: "Mental Health",
     },
     {
-        id: 'XiCrniLQGYc',
-        title: 'What Is Depression?',
-        desc: 'Understanding what depression really is and how it affects the brain.',
-        category: 'Depression',
+        id: "6iztuIGwahk",
+        title: "Depression Explained",
+        desc: "Learn what depression is and how it affects you.",
+        category: "Depression",
     },
     {
-        id: 'ZQht2yOX9Js',
-        title: 'How to Practice Mindfulness',
-        desc: 'A guided introduction to mindfulness meditation for stress relief.',
-        category: 'Mental Health',
+        id: "3QIfkeA6HBY",
+        title: "Anxiety Guide",
+        desc: "How to manage anxiety in daily life.",
+        category: "Anxiety",
     },
     {
-        id: 'b_n9qegR7C4',
-        title: 'Understanding PTSD and Trauma',
-        desc: 'Learn how trauma affects the body and mind.',
-        category: 'PTSD',
+        id: "rkZl2gsLUp4",
+        title: "Understanding PTSD",
+        desc: "Learn how trauma impacts mental health.",
+        category: "PTSD",
     },
     {
-        id: 'I9lmOVbSPnE',
-        title: 'Living with OCD — My Story',
-        desc: 'Personal experiences and insights about OCD recovery.',
-        category: 'OCD',
+        id: "NQcYZplTXnQ",
+        title: "Stress & Brain",
+        desc: "How stress affects your brain and body.",
+        category: "Mental Health",
     },
     {
-        id: 'MB5IX-np5fE',
-        title: 'How Stress Affects Your Body',
-        desc: 'TED-Ed explains the long-term effects of stress on your health.',
-        category: 'Anxiety',
+        id: "tK2LaefZcy8",
+        title: "Mindfulness Practice",
+        desc: "Guided mindfulness for calm and focus.",
+        category: "Anxiety",
+    },
+      {
+        id: "I8Jofzx_8p4",
+        title: "OCD Explained",
+        desc: "Understanding obsessive-compulsive disorder symptoms.",
+        category: "OCD",
     },
     {
-        id: 'LnJwH_PZXnM',
-        title: 'Depression — Let\'s Talk',
-        desc: 'WHO campaign to raise awareness about depression globally.',
-        category: 'Depression',
+        id: "ivyLkTcvanQ",
+        title: "What is OCD?",
+        desc: "Simple explanation of OCD and how it affects people.",
+        category: "OCD",
+    },
+     {
+        id: "ah4Hnrz3CDg",
+        title: "Understanding Anxiety",
+        desc: "Detailed explanation of anxiety and symptoms.",
+        category: "Anxiety",
     },
     {
-        id: 'NQcYZKQrzGo',
-        title: 'How Your Brain Works Under Stress',
-        desc: 'Understanding the neuroscience of stress and anxiety.',
-        category: 'Mental Health',
+        id: "vtUdHOx494E",
+        title: "What is Anxiety Disorder?",
+        desc: "Types and causes of anxiety disorders.",
+        category: "Anxiety",
     },
     {
-        id: 'aqu4ezLQEUA',
-        title: 'PTSD: What You Need to Know',
-        desc: 'A quick overview of PTSD symptoms and treatment options.',
-        category: 'PTSD',
+        id: "glLWKsxis4s",
+        title: "Mental Health Basics",
+        desc: "Core concepts of mental well-being.",
+        category: "Mental Health",
     },
+    {
+        id: "6GcEhUYoW9E",
+        title: "Depression Deep Dive",
+        desc: "In-depth look into depression.",
+        category: "Depression",
+    },
+    {
+        id: "aJ2vZ5lPXTY",
+        title: "PTSD Recovery Guide",
+        desc: "Steps and insights for PTSD recovery.",
+        category: "PTSD",
+    }
+
 ];
+
 
 const podcasts = [
     {
@@ -284,7 +368,7 @@ const Resources = () => {
                             </div>
                         )}
                     </div>
-                )}
+                )} 
 
                 {/* Podcasts Tab */}
                 {activeTab === 'podcasts' && (

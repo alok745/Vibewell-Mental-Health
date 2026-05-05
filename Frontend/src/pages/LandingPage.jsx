@@ -200,13 +200,13 @@ const LandingPage = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div className="rounded-2xl overflow-hidden shadow-lg bg-white border border-gray-100 group hover:shadow-xl transition-all">
                             <div className="aspect-video bg-gray-900 relative">
-                                <iframe
-                                    className="w-full h-full"
-                                    src="https://www.youtube.com/embed/xNY0AAUtQ3g"
-                                    title="How to Cope With Anxiety"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowFullScreen
-                                />
+                              <iframe
+                             className="w-full h-full"
+                             src="https://www.youtube.com/embed/YdMCL9_UTE4"
+                             title="Mental health and resilience"
+                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                             allowFullScreen
+                     />
                             </div>
                             <div className="p-5">
                                 <h4 className="font-bold text-gray-900 group-hover:text-[#c5a944] transition-colors">How to Cope With Anxiety</h4>
@@ -234,7 +234,7 @@ const LandingPage = () => {
                             <div className="aspect-video bg-gray-900">
                                 <iframe
                                     className="w-full h-full"
-                                    src="https://www.youtube.com/embed/ZQht2yOX9Js"
+                                    src="https://www.youtube.com/embed/inpok4MKVLM"
                                     title="How to Practice Mindfulness"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen
